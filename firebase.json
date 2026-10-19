@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "gestion-materiel-4916b",
+          "appId": "1:674897778276:android:0a3bbe42298a960b933171",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "gestion-materiel-4916b",
+          "configurations": {
+            "android": "1:674897778276:android:0a3bbe42298a960b933171",
+            "ios": "1:674897778276:ios:ebc3d8ec95b4603b933171",
+            "macos": "1:674897778276:ios:ebc3d8ec95b4603b933171",
+            "web": "1:674897778276:web:0edf28216ff4f1bd933171",
+            "windows": "1:674897778276:web:61dfbeb860d8e465933171"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
